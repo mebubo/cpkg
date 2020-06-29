@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./app"
+      component: "cpkg:exe:cpkg"
+    - path: "./src"
+      component: "lib:cpkg"
+    - path: "./test"
+      component: "cpkg:test:cpkg-test"
